@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F4F4F4;
+}
+.quiz-heading {
+    background: #343A40;
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.question-card {
+    height: 370px;
+    width: 500px;
+    background-color: #262b48;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #FFF;
+    margin-left: 1.5em;
+    padding-left: 1.8em;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+input {
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.submit {
+    
+    all: unset;
+    background-color: #2183e6;
+    color: white;
+    height: 30px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+
+.next {
+    background: #28A745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    position: relative;
+    cursor: pointer;
+}
+li {
+    margin: 20px;
+}
+.answer-label {
+    background: #28A745;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 5px;
+}
+.correct {
+    background: #D4EDDA;
+    color: #156340;
+    margin: 5px 0px -15px 0px !important;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+.incorrect {
+    background: #F8D7DA;
+    color: #722845;
+    margin: 5px 0px -15px 0px !important;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+.idle {
+    margin: 0px !important;
+    padding: 0px;
+    visibility: hidden;
+}
+.app-body {
+    max-width: 600px;
+    width: 90%;
+    padding: 10px 10px;
+    margin: 0px auto;
+}
+.answer-key {
+    margin: 0px 10px;
+    display: none;
+}
+button {
+    background: #17A2B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    margin: 0px 10px;
+    display: none;
+}

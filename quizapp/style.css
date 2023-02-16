@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dbdde9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    height: 440px;
+    width: 330px;
+    background-color: #262b48;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ques_count{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    color: white;
+
+}
+.question_div{
+    height: 60px;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-size: 4vw;
+    font-family: serif;
+    color: white;
+}
+.option-list{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #224666;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+    top: 47px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.answer{
+    font-size: 15px;
+}
+
+.label{
+    margin-left: 10px;
+}
+input[type="radio"]{
+    margin-left: 10px;
+}
+
+.Submit-btn{
+    all: unset;
+    background-color: #2183e6;
+    color: white;
+    height: 30px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    border-radius: 5px;
+    cursor: pointer;  
+    
+}
+
+.option-list:hover{
+    transition: all .3s linear;
+    transform: translate(-50%,-50%) scale(1.05);
+}
+
+.score-area{
+    height: 200px;
+    width: 300px;
+    background-color: #262b48;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+}
+
+.result{
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+.play-again{
+    all: unset;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2pxsolid #224666;
+}
